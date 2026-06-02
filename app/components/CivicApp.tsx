@@ -2000,7 +2000,7 @@ export default function CivicApp() {
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: "#f0f0f0", display: "flex", alignItems: "center", justifyContent: "center", padding: "20px 0" }}>
+    <div style={{ minHeight: "100vh", background: "#f0f0f0", display: "flex", alignItems: "center", justifyContent: "center" }}>
       <div className="app">
         {top ? (
           renderTop()
